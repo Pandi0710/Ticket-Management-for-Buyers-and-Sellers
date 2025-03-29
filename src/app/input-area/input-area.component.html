@@ -1,0 +1,42 @@
+<div class="container">
+  <!-- Header Section -->
+  <header class="header">
+      <h1>🎟️ Ticketing System Control 🎟️</h1>
+      <div class="controls">
+          <button class="start-btn">▶ Start System</button>
+          <button class="stop-btn">⛔ Stop System</button>
+      </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="main">
+      <!-- Configuration Form -->
+      <section class="configuration-form">
+          <h2>Configure System</h2>
+          <label for="total-tickets">Total Tickets</label>
+          <input id="total-tickets" type="number" placeholder="Enter total tickets" />
+
+          <label for="release-rate">Ticket Release Rate</label>
+          <input id="release-rate" type="number" placeholder="Enter ticket release rate" />
+
+          <label for="retrieval-rate">Customer Retrieval Rate</label>
+          <input id="retrieval-rate" type="number" placeholder="Enter customer retrieval rate" />
+
+          <label for="max-capacity">Max Ticket Capacity</label>
+          <input id="max-capacity" type="number" placeholder="Enter max ticket capacity" />
+      </section>
+
+      <!-- Ticket Display and Logs -->
+      <section class="ticket-display">
+          <h2>Total Tickets Left: <span class="ticket-count">0</span></h2>
+          <p class="system-status">🧑‍💻 System Status: <span class="status stopped">Stopped</span></p>
+
+          <div class="log-section">
+              <h3>Log</h3>
+              <div class="log-container">
+                  <!-- Logs will appear here -->
+              </div>
+          </div>
+      </section>
+  </main>
+</div>
